@@ -3,6 +3,7 @@ package cn.gofree.lingxi.eventbridge.plugin;
 import io.openmessaging.connector.api.component.Transform;
 import io.openmessaging.connector.api.component.connector.Connector;
 import io.openmessaging.connector.api.component.task.Task;
+
 import org.apache.commons.lang3.StringUtils;
 import org.reflections.Configuration;
 import org.reflections.Reflections;
@@ -25,9 +26,11 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
 
+@Component("plugins")
 public class PluginManager extends URLClassLoader {
     private static final Logger log = LoggerFactory.getLogger(PluginManager.class);
 
+    @Value("${plugin.directory}")
     private String pluginPath;
 
     private final Map<String, PluginWrapper> classLoaderMap = new HashMap<>();
@@ -36,8 +39,9 @@ public class PluginManager extends URLClassLoader {
         super(new URL[0], PluginManager.class.getClassLoader());
     }
 
-    public void initPlugin(String pluginPath) {
-        this.pluginPath = pluginPath;
+    @PostConstruct
+    public void initPlugin() {
+
         List<String> pluginPaths = initPluginPath(this.pluginPath);
         for (String configPath : pluginPaths) {
             loadPlugin(configPath);

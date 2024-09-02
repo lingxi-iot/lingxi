@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/connector/connector.iml" filepath="$PROJECT_DIR$/connector/connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dashbord/dashbord.iml" filepath="$PROJECT_DIR$/dashbord/dashbord.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbridge/eventbridge.iml" filepath="$PROJECT_DIR$/eventbridge/eventbridge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
       <module fileurl="file://$PROJECT_DIR$/connector/http-connector/http-connector.iml" filepath="$PROJECT_DIR$/connector/http-connector/http-connector.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lingxi.iml" filepath="$PROJECT_DIR$/.idea/lingxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/connector/modbus-connector/modbus-connector.iml" filepath="$PROJECT_DIR$/connector/modbus-connector/modbus-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter.iml" filepath="$PROJECT_DIR$/starter/starter.iml" />
     </modules>
   </component>
 </project>
