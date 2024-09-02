@@ -17,6 +17,7 @@
     <modules>
         <module>eventbridge</module>
         <module>connector</module>
+        <module>dashbord</module>
     </modules>
 
     <properties>
