@@ -4,8 +4,8 @@
     <file url="file://$PROJECT_DIR$/connector/http-connector/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dashbord/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dashbord/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eventbridge/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eventbridge/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventcenter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventcenter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/src/main/resources" charset="UTF-8" />
   </component>

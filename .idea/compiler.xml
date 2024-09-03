@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eventbridge" />
         <module name="http-connector" />
         <module name="starter" />
+        <module name="eventcenter" />
         <module name="dashbord" />
         <module name="modbus-connector" />
       </profile>
@@ -17,8 +17,8 @@
     <bytecodeTargetLevel>
       <module name="connector" target="16" />
       <module name="dashbord" target="1.8" />
-      <module name="eventbridge" target="8" />
       <module name="eventbus" target="22" />
+      <module name="eventcenter" target="8" />
       <module name="http-connector" target="8" />
       <module name="lingxi" target="8" />
       <module name="modbus-connector" target="16" />
@@ -27,8 +27,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eventbridge" options="" />
       <module name="eventbus" options="-parameters" />
+      <module name="eventcenter" options="" />
       <module name="http-connector" options="" />
       <module name="starter" options="" />
     </option>
