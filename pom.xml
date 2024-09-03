@@ -15,7 +15,7 @@
         </license>
     </licenses>
     <modules>
-        <module>eventbridge</module>
+        <module>eventcenter</module>
         <module>connector</module>
         <module>dashbord</module>
     </modules>

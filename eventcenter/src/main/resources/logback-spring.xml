@@ -12,8 +12,8 @@
 <configuration>
     <jmxConfigurator/>
 
-    <springProperty scope="context" name="app.name" source="app.name"/>
-    <springProperty scope="context" name="log.path" source="log.path"/>
+    <springProperty scope="context" name="app.name" source="spring.application.name" />
+    <springProperty scope="context" name="log.path" source="log.path" />
     <springProperty scope="context" name="log.level" source="log.level"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">

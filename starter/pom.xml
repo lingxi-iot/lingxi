@@ -73,7 +73,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>cn.gofree.lingxi.eventbridge.starter.StarterApplication</mainClass>
+                    <mainClass>cn.gofree.lingxi.eventcenter.starter.StarterApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
