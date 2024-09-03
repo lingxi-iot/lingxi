@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>eventbridge</artifactId>
+    <artifactId>eventcenter</artifactId>
     <properties>
 
     </properties>
@@ -154,7 +154,7 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <version>${spring-boot.version}</version>
             <configuration>
-                <mainClass>cn.gofree.lingxi.eventbridge.StartApplication</mainClass>
+                <mainClass>cn.gofree.lingxi.eventcenter.StartApplication</mainClass>
                 <skip>true</skip>
             </configuration>
             <executions>
