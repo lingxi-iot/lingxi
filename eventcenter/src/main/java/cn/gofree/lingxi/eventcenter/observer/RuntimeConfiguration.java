@@ -12,6 +12,4 @@ public class RuntimeConfiguration {
     public TargetRunnerConfigObserver targetRunnerConfigObserver(@Value("${runtime.config.mode}") String configMode) {
                 return new TargetRunnerConfigOnFileObserver();
     }
-
-
 }
