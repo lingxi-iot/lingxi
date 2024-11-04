@@ -89,6 +89,13 @@ public class TargetRunnerConfigOnFileObserver extends AbstractTargetRunnerConfig
 
 
     private String getConfigFilePath() {
-        return this.getClass().getClassLoader().getResource(DEFAULT_TARGET_RUNNER_CONFIG_FILE_NAME).getPath();
+     String path=   this.getClass().getClassLoader().getResource(DEFAULT_TARGET_RUNNER_CONFIG_FILE_NAME).getPath();
+        if (System.getProperty("os.name").indexOf("Windows")>-1)
+        {
+            return path.substring(1,path.length());
+        }else{
+            return path;
+        }
+
     }
 }
