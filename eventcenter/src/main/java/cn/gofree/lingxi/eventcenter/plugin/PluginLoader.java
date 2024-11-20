@@ -9,7 +9,6 @@ public class PluginLoader extends URLClassLoader {
     private static final Logger log = LoggerFactory.getLogger(PluginLoader.class);
     private final URL pluginLocationUrl;
 
-
     static {
         /**
          * 支持可并行类加载机制，将类加载锁的粒度降低，以提高类加载的并发性能。

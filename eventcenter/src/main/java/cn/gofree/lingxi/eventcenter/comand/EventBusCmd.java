@@ -17,6 +17,7 @@ public class EventBusCmd {
                 .build();
         //TODO 存储到持久层
 
+
     }
     public EventBus getEventBus(String accountId, String EventBusName) {
         log.debug(String.format("获取事件总线:accountId=%s,EventBusName=%s", accountId, EventBusName));
