@@ -2,3 +2,5 @@
 /connector/modbus-connector/target/
 /eventcenter/src/main/resources/plugins/
 /logs/
+/.idea/
+/lingxi.iml

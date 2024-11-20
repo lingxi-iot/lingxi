@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dashbord/dashbord.iml" filepath="$PROJECT_DIR$/dashbord/dashbord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventcenter/eventcenter.iml" filepath="$PROJECT_DIR$/eventcenter/eventcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/connector/http-connector/http-connector.iml" filepath="$PROJECT_DIR$/connector/http-connector/http-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter.iml" filepath="$PROJECT_DIR$/starter/starter.iml" />
+    </modules>
+  </component>
+</project>

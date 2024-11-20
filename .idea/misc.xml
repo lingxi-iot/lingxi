@@ -8,6 +8,11 @@
         <option value="$PROJECT_DIR$/connector/http-connector/pom.xml" />
         <option value="$PROJECT_DIR$/starter/pom.xml" />
         <option value="$PROJECT_DIR$/dashbord/pom.xml" />
+        <option value="$PROJECT_DIR$/connector/connect-filter-transform/pom.xml" />
+        <option value="$PROJECT_DIR$/connector/eventbridge-connect-file/pom.xml" />
+        <option value="$PROJECT_DIR$/connector/eventbridge-connect-standard/pom.xml" />
+        <option value="$PROJECT_DIR$/connector/connect-eventbridge-transform/pom.xml" />
+        <option value="$PROJECT_DIR$/connector/connect-cloudevent-transform/pom.xml" />
       </list>
     </option>
   </component>

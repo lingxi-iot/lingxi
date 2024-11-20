@@ -8,10 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="http-connector" />
+        <module name="connect-cloudevent-transform" />
         <module name="starter" />
         <module name="eventcenter" />
         <module name="dashbord" />
         <module name="modbus-connector" />
+        <module name="eventbridge-connect-file" />
+        <module name="connect-filter-transform" />
+        <module name="eventbridge-connect-standard" />
+        <module name="connect-eventbridge-transform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
